@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/puyo-puyo-game/static/css/main.51c2d8d3.css",
+    "main.js": "/puyo-puyo-game/static/js/main.ca02ddeb.js",
+    "static/js/453.e00d11f3.chunk.js": "/puyo-puyo-game/static/js/453.e00d11f3.chunk.js",
+    "index.html": "/puyo-puyo-game/index.html",
+    "main.51c2d8d3.css.map": "/puyo-puyo-game/static/css/main.51c2d8d3.css.map",
+    "main.ca02ddeb.js.map": "/puyo-puyo-game/static/js/main.ca02ddeb.js.map",
+    "453.e00d11f3.chunk.js.map": "/puyo-puyo-game/static/js/453.e00d11f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51c2d8d3.css",
+    "static/js/main.ca02ddeb.js"
+  ]
+}
