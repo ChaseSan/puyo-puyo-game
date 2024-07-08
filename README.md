@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Puyo Puyo Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple implementation of the classic Puyo Puyo game using React and TypeScript.
 
-## Available Scripts
+![Puyo Puyo Game Screenshot](game.png)
 
-In the project directory, you can run:
+## Game Description
 
-### `npm start`
+Puyo Puyo is a colorful puzzle game where players manipulate falling pairs of colored blobs ("Puyos"). The objective is to rotate and move these Puyos as they fall, forming groups of four or more same-colored Puyos, which then disappear. Chain reactions occur when clearing Puyos cause other Puyos to fall and form new groups.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Game Features:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Colorful Puyos falling from the top of the screen
+- Left and right movement controls
+- Hard drop function for quick placement
+- Chain reaction mechanics
+- Game over detection when the board fills up
 
-### `npm test`
+## How to Play
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Use the left (←) and right (→) arrow buttons to move the falling Puyo.
+- Use the down (↓) arrow button to perform a hard drop.
+- Form groups of four or more same-colored Puyos to clear them.
+- Try to set up chain reactions for higher scores.
+- The game ends when Puyos stack up to the top of the board.
 
-### `npm run build`
+## Local Build and Run Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To build and run this game locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```
+   git clone <repository-url>
+   cd puyo-puyo-game
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Open your browser and navigate to `http://localhost:3000` to play the game.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Build for Production
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To create a production build, run:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm run build
+```
 
-## Learn More
+This will create a `build` directory with optimized production-ready files.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React
+- TypeScript
+- Tailwind CSS
+
+Enjoy playing Puyo Puyo!
