@@ -2,6 +2,8 @@
 
 This is a simple implementation of the classic Puyo Puyo game using React and TypeScript.
 
+[DEMO](https://chasesan.github.io/puyo-puyo-game/)
+
 ![Puyo Puyo Game Screenshot](game.png)
 
 ## Game Description
